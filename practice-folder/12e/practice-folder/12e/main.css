@@ -1,0 +1,22 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 1%;
+}  
+
+/*************** 12e ***************/
+.notif-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid rgb(195, 195, 195);
+    border-radius: 5px;
+    box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.1);
+}
+.notif-section {
+    width: 100px;
+}
+.home-section {
+    width: 100px;
+}
+

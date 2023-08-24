@@ -1,3 +1,7 @@
 * {
     font-family: Arial, Helvetica, sans-serif;
 }
+body {
+    padding-top: 80px;
+    padding-left: 80px;
+}

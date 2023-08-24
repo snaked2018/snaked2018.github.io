@@ -1,0 +1,19 @@
+.header-top {
+    width: 100%;
+    border-bottom: 1px solid black;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 80px;
+}
+
+.header-left {
+    width: 80px;
+    border-right: 1px solid black;
+    position: fixed;
+    left: 0;
+    height: 100%;
+    top: 0;
+    right: 0;
+}
