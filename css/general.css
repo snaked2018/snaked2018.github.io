@@ -1,9 +1,36 @@
 * {
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: Roboto, sans-serif;
 }
 body {
-    padding-top: 100px;
-    padding-left: 80px;
-    background-color: #0f0f0f;
+    margin-top: 80px;
+    margin-left: 80px;
+    background-color: #151515;
     color: white;
+}
+
+/********** Devices display block *************/
+
+@media screen and (max-width: 1200px) {
+    .top-search-bar {
+        width: 30rem;
+    }
+}
+
+@media screen and (max-width: 992px) {
+    .top-search-bar {
+        width: 20rem;
+    }
+}
+
+@media screen and (max-width: 760px) {
+    .top-search-bar {
+        width: 10rem;
+    }
+}
+
+@media screen and (max-width: 490px) {
+    .top-search-bar,
+    .fa-magnifying-glass {
+        display: none;
+    }
 }
