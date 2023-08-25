@@ -1,16 +1,79 @@
 .header-top {
     width: 100%;
-    border-bottom: 1px solid black;
+    border-bottom: 1px solid rgb(255, 255, 255);
     position: fixed;
     top: 0;
     left: 0;
     right: 0;
     height: 80px;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    vertical-align: middle;
+    margin-top: 20px;
+}
+.fa-solid {
+    margin-right: 30px;
+    padding: 18px;
+}
+.left-sec-icon {
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+}
+
+.nav-left-section {
+    flex: 1;
+}
+
+.logo-yt {
+    width: 115px;
+    padding: 5px 14px 18px 16px;
+}
+
+.nav-center-section {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex: 1;
+}
+
+.top-search-bar {
+    width: 400px;
+    height: 40px;
+    border-radius: 25px;
+    border-top-right-radius: 0px;
+    border-bottom-right-radius: 0px;
+    border: 1px solid #424242;
+    background: none;
+}
+.top-search-bar::placeholder {
+    padding-left: 10px;
+}
+
+.nav-right-section {
+    flex: 1;
+    background-color: red;
+}
+
+.center-icon {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.fa-magnifying-glass {
+    background-color: #424242;
+    width: 16px;
+    height: 4px;
+    border-top-right-radius: 25px;
+    border-bottom-right-radius: 25px;
 }
 
 .header-left {
     width: 80px;
-    border-right: 1px solid black;
+    border-right: 1px solid rgb(255, 255, 255);
     position: fixed;
     left: 0;
     height: 100%;

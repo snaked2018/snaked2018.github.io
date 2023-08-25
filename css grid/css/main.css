@@ -1,0 +1,16 @@
+.css-grid-a {
+    display: grid;
+    grid-template-columns: 200px 75px;
+}
+
+.css-grid-b {
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+}
+
+.css-grid-c {
+    display: grid;
+    grid-template-columns: 200px 200px 200px 200px;
+    row-gap: 15px;
+    column-gap: 15px;
+}

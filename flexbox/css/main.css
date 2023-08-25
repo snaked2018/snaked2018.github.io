@@ -1,12 +1,82 @@
 * {
     font-family: Arial, Helvetica, sans-serif;
-    padding: 1%;
 }  
 
 body {
-    padding-bottom: 500px;
+    padding-bottom: 1000px;
+
+}
+/******** 12a ********/
+.flexbox-a {
+    display: flex;
+    flex-direction: row;
+    color: white;
+    margin-bottom: 50px;
 }
 
+.flex-left {
+    width: 200px;
+    background-color: lightblue;
+
+}
+.flex-right {
+    width: 75px;
+    background-color: lightpink;
+}
+
+.flexbox-b {
+    display: flex;
+    flex-direction: row;
+    color: white;
+    margin-bottom: 50px;
+}
+
+.flex-left-a {
+    flex: 1;
+    background-color: lightblue;
+}
+.flex-mid-b {
+    flex: 1;
+    background-color: lightpink;
+}
+
+.flex-right-c {
+    flex: 1;
+    background-color: lightblue;
+}
+/******** 12c ********/
+.flexbox-c {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: white;
+}
+
+.flex-1a,.flex-1b,.flex-1c,.flex-1d {
+    background-color: lightpink;
+}
+
+.flex-d-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: end;
+    background: white;
+    width: 300px;
+    height: 100px;
+    margin: 5%;
+    border: 1px solid black;
+}
+.flex-d-1 {
+    width: 50px;
+    background-color: red;
+    margin-bottom: 12%;
+}
+.flex-d-2 {
+    width: 50px;
+    background-color: green;
+    margin-bottom: 12%;    
+}
 /******** 12e ********/
 .exercise-12e {
     border: 1px solid rgb(202, 202, 202);
@@ -14,6 +84,8 @@ body {
     box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.1);
     width: 260px;
     margin-bottom: 50px;
+    background-color: white;
+    padding: 1.5%;
 }
 .flex-container {
     display: flex;
@@ -21,6 +93,7 @@ body {
     justify-content: space-between;
     align-items: center;
     width: 250px;
+    line-height: 30px;
 }
 
 .num-14 {
@@ -39,7 +112,7 @@ body {
     color: white;
     text-align: center;
     border-radius: 15px;
-    width: 20px;
+    width: 30px;
     font-size: 13px;
 }
 
@@ -63,6 +136,7 @@ exercise-12f {
     border: 1px solid rgb(106, 106, 106);
     box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.1);
     width: 100%;
+    height: 50px;
     margin-bottom: 50px;
     display: flex;
     flex-direction: row;
@@ -96,8 +170,10 @@ exercise-12f {
     display: flex;
     flex-direction: row;
     align-items: center;
-    width: 50%;
+    width: 15%;
     height: auto;
+    background-color: white;
+    margin: 0px 0px 20px 0px;
 }
 
 .profilepic {
@@ -142,3 +218,4 @@ button {
   cursor: pointer;
   
 }
+
