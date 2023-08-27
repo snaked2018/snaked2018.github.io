@@ -67,7 +67,6 @@ input:focus,
 input:hover,
 input:active
 input::after {
-    background-color: black;
     color: rgb(255, 255, 255);
     border: none;
 }
@@ -93,6 +92,27 @@ input::after {
     border-bottom-right-radius: 25px;
     margin: 0;
     top: 5px;
+    cursor: pointer;
+    }
+
+   
+    @media screen and (max-width: 990px) {
+        .top-search-bar {
+            width: 30rem;
+        }
+    }
+    
+    @media screen and (max-width: 760px) {
+        .top-search-bar {
+            width: 10rem;
+        }
+    }
+    
+    @media screen and (max-width: 490px) {
+        .top-search-bar,
+        .fa-magnifying-glass {
+            display: none;
+        }
     }
 
 .fa-video,
@@ -152,7 +172,3 @@ input::after {
 }
 
 
-.fa-folder {
-    margin-top: ;
-    
-}

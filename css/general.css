@@ -10,27 +10,57 @@ body {
 
 /********** Devices display block *************/
 
-@media screen and (max-width: 1200px) {
-    .top-search-bar {
-        width: 30rem;
-    }
+.container-behance {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    height: 300px;
+    column-gap: 20px;
+    row-gap: 20px;
 }
 
-@media screen and (max-width: 992px) {
-    .top-search-bar {
-        width: 20rem;
-    }
+.thumbnail-container {
+    width: 100%;
 }
 
-@media screen and (max-width: 760px) {
-    .top-search-bar {
-        width: 10rem;
-    }
+.container.img {
+    width: 100%;
+    height: auto;
 }
 
-@media screen and (max-width: 490px) {
-    .top-search-bar,
-    .fa-magnifying-glass {
-        display: none;
+.behance-profile {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+.info {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 50px 300px;
     }
+
+.details {
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+}
+
+.profile-pic
+.profile-pic-id {
+    width: 36px;
+    border-radius: 25;
+}
+
+.title {
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.name,
+.views {
+   margin: 0;
+   color: rgb(170, 170, 170);
+}
+
+.info {
+    margin-top: 10px;
 }
