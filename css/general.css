@@ -8,6 +8,12 @@ body {
     color: white;
 }
 
+@media screen and (max-width: 490px) {
+    body {
+        margin-left: 0;
+    }
+}
+
 /********** Devices display block *************/
 
 .container-behance {
@@ -36,7 +42,7 @@ body {
 .info {
     width: 100%;
     display: grid;
-    grid-template-columns: 50px 300px;
+    grid-template-columns: 50px 1fr;
     }
 
 .details {

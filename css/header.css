@@ -95,7 +95,6 @@ input::after {
     cursor: pointer;
     }
 
-   
     @media screen and (max-width: 990px) {
         .top-search-bar {
             width: 30rem;
@@ -163,6 +162,12 @@ input::after {
     right: 0;
 }
 
+
+@media screen and (max-width: 490px) {
+    .header-left {
+        display: none;
+    }
+}
 
 .left-nav-bar {
     display: flex;
