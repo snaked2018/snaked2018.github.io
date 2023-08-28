@@ -1,3 +1,3 @@
-This is a website project inspired to youtube. I'm making my own portfolio based on the website.
+This my portfolio showcasing my previous work, designs and experience.
 
 # snaked2018.github.io
