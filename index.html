@@ -10,6 +10,7 @@
     <link rel="stylesheet" href="css/main.css">
     <link rel="stylesheet" href="css/general.css">
     <link rel="stylesheet" href="css/header.css">
+    <script type="text/javascript" src="java/main.js"></script>
     <title>Ron Reciproco</title>
 </head>
 <body>
@@ -22,15 +23,32 @@
             <div class="nav-container">
                 <nav class="nav-bar">
                     <ul>
-                        <li><a href="#">Home</a></li>
-                        <li><a href="#">About</a></li>
-                        <li><a href="#">Portfolio</a></li>
-                        <li><a href="#">Contact</a></li>
-                        <li><a href="#">Fire me an email</a></li>
+                        <li><a href="#" class="desktop-nav">Home</a></li>
+                        <li><a href="#" class="desktop-nav">About</a></li>
+                        <li><a href="#" class="desktop-nav">Portfolio</a></li>
+                        <li><a href="#" class="desktop-nav">Contact</a></li>
+                        <li><a href="#" class="desktop-nav">Fire me an email</a></li>
                     </ul>
                 </nav>
             </div>
         </div>
+<!-- Top Navigation Menu -->
+<section class="top-nav">
+  <div>
+    <img class="logo-size" src="image/logo.png" alt="">
+  </div>
+  <input id="menu-toggle" type="checkbox" />
+  <label class='menu-button-container' for="menu-toggle">
+  <div class='menu-button'></div>
+</label>
+  <ul class="menu">
+  <li><a class="mobile-nav" href="#">Home</a></li>
+  <li><a class="mobile-nav" href="#">About</a></li>
+  <li><a class="mobile-nav" href="#">Portfolio</a></li>
+  <li><a class="mobile-nav" href="#">Contact</a></li>
+  <li><a class="mobile-nav" href="#">Fire me an email</a></li>
+</ul>
+<!-- End smartphone / tablet look -->
 </header>
 <main>
       <!---Desktop---->
@@ -51,5 +69,15 @@
         </div>
     </div>
 </main>
+<script>
+    function myFunction() {
+      var x = document.getElementById("myLinks");
+      if (x.style.display === "block") {
+        x.style.display = "none";
+      } else {
+        x.style.display = "block";
+      }
+    }
+    </script>     
 </body>
 </html>
