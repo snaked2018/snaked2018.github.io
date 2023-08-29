@@ -40,6 +40,7 @@ li:hover {
     left: 26rem;
     top: 4rem;
 }
+
 .header-container {
     display: flex;
     flex-direction: row;
@@ -51,8 +52,7 @@ li:hover {
     height: 100px;
     background-color: rgb(244, 244, 244);
     background: #ffffff;
-    box-shadow:  -15px 15px 44px #e9e9e9,
-             15px -15px 44px #ffffff;
+    box-shadow: 0 4px 2px -2px rgb(243, 243, 243);
 }
 
 .logo-container {
@@ -84,20 +84,6 @@ li:hover {
 .logo-size-2:hover {
     border: 2px solid white;
 }
-.hamber-menu {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-}
-.ron-logo {
-    background-color: rgb(162, 162, 162);
-    width: 100%;
-    height: 100px;
-}
-.hamber-dropdown {
-    background-color: rgb(137, 137, 137);
-    width: 100%;
-    height: 100px;
-}  
 
 @media only screen and (min-width: 700px) {
     .top-nav {
@@ -273,6 +259,14 @@ li {
         margin-top: 0px;
         transform: rotate(-405deg);
       }
+      .logo-size {
+        border: 2px solid black;
+        border-radius: 5px;
+      }
+    .mobile-nav {
+        color: white;
+    }
+}      
       @media (max-width: 700px) {
         .menu-button-container {
           display: flex;
@@ -313,7 +307,7 @@ li {
           border-bottom: 1px solid #444;
         }
       }
-}
+
 @media only screen and (max-width: 412px) {
     .left-box-container {
         margin-left: 1rem;
