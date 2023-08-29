@@ -211,6 +211,10 @@ h2 {
 }
 
 @media (max-width: 768px) {
+   .background-image-1 {
+    position: absolute;
+    z-index: -1;
+    }
     .section-1 {
         height: auto;
     }
@@ -279,8 +283,16 @@ h2 {
     .background-image-2 {
         position: absolute;
         top: 77rem;
-        left: -86rem;
-        zoom: 55%;
+        left: -1rem;
+        zoom: 54.1%;
+        z-index: -1;
+        box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.3);
+    }
+    .background-image-1 {
+        position: absolute;
+        top: 8rem;
+        right: 0rem;
+        zoom: 54.1%;
         z-index: -1;
         box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.3);
     }

@@ -84,14 +84,21 @@ li:hover {
 .logo-size-2:hover {
     border: 2px solid white;
 }
-
+@media only screen and (max-width: 554px) {
+    .background-image {  
+        display: none !important;
+    }
+}
+   
 @media only screen and (min-width: 700px) {
     .top-nav {
         display: none !important;
     }
+    .background-image-1,
     .background-image-2 {
         display: none !important;
     }
+    
 }    
 @media only screen and (max-width: 1500px) {
     h1 {
