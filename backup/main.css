@@ -1,0 +1,424 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Poppins;
+    font-size: 10px;
+    color: black;
+    height: auto;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-font-smoothing: antialiased;
+    -moz-font-smoothing: antialiased;
+    -o-font-smoothing: antialiased;
+    font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+    scroll-behavior: smooth;
+}
+p {
+    font-size: 2rem;
+    color: rgb(103, 103, 103);
+    margin-top: 3rem;
+}
+.btn-hire {
+    margin-top: 3rem;
+    padding: 1.5rem 4rem 1.5rem 4rem;
+}
+button {
+    font-size: 2rem;
+    font-weight: 500;
+    padding: 10px 2rem 10px 2rem;
+    border: 2px solid blue;
+    background: blue;
+    color: white;
+    transition: 0.5s;
+    cursor: pointer;
+}
+button:hover {
+    background: white;
+    color: blue;
+}
+main {
+    width: 100%;
+    height: 800px;
+}
+strong {
+    font-size: 2rem;
+    color: blue;
+}
+i {
+    font-size: 5rem;
+    margin: 1rem;
+}
+
+.background-image {
+    position: absolute;
+    z-index: -1;
+    width: 100%;
+    height: auto;
+    object-fit: fill;
+    object-position: center;
+    padding-top: 5rem;
+    zoom: 105.8%;
+    box-shadow: 0 4px 2px -2px rgb(243, 243, 243);
+}
+
+.headline-container {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.box-container {
+    text-align: left;
+    margin-left: 20rem;
+    margin-top: 20rem;
+}
+
+.right-box-container {
+    text-align: right;
+    margin-right: 20rem;
+    margin-top: 20rem;
+}
+.left-box-container {
+    text-align: left;
+    margin-left: 20rem;
+    margin-top: 20rem;
+}
+
+h1 {
+    font-size: 7rem;
+    font-weight: bolder;
+}
+
+h2 {
+    display: flex;
+    font-size: 3rem;
+    font-weight: bolder;
+}
+
+.sub-headline{
+    font-size: 2rem;
+    color: rgb(103, 103, 103);
+}
+
+.about-sec-pad {
+    width: 70%;
+    margin: auto;
+    height: auto;
+}
+ .about-sec-pad {
+    margin-bottom: 10rem;
+}
+.about-me-sec {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 100%;
+}
+.about-me-info {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding-top: 1.5rem;
+    font-size: 2rem;  
+    margin-bottom: 10rem;
+    color: rgb(103, 103, 103);
+    width: 100%;
+}
+.project-info {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding-top: 1.5rem;
+    font-size: 2rem;  
+    margin-bottom: 10rem;
+    color: rgb(103, 103, 103);
+    width: 50%;
+}
+.project-container,
+.about-container-box {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 100px;
+    height: auto;
+}
+.project-container {
+    margin: 5rem 0 5rem 0;
+}
+.html,.css,.javascript,.shopify,.wordpress,.github,.sqlbasics,.linux,.figma,.graphicdesign {
+    color: rgb(103, 103, 103);
+    font-size: 2rem;
+    line-height: 8rem;
+    border: none;
+    padding: 18px;
+    border-radius: 5px;
+    background: #ffffff;
+    box-shadow:  1px 1px 10px #ececec,
+                -1px -1px 10px #ffffff;
+    margin: 10px 10px 10px 0px;
+    border: 3px solid blue;
+    }    
+.fa-arrow-down {
+    font-size: 3rem;
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    }
+.section-1 {
+    box-shadow: 0 4px 2px -2px rgb(243, 243, 243);
+    margin: 10rem 0 10rem 0;
+    height: auto;
+}
+.section-2 {
+    box-shadow: 0 4px 2px -2px rgb(243, 243, 243);
+    margin: 10rem 0 10rem 0;
+    height: auto;
+}    
+.section-2-details {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.about-container-left {
+    margin-bottom: 8rem;
+        width: 100%;
+    }
+.about-container-right {
+    margin-bottom: 8rem;
+    width: 80%;
+    }
+.project-container-right-dsc,    
+.container-left-dsc,
+.container-right-dsc {
+    font-size: 2rem; 
+    height: auto;
+    color: rgb(103, 103, 103);
+}
+.project-container-left,
+.project-container-right {
+    width: 600px;
+    margin-bottom: 3rem;
+}
+.lemon-jelly {
+    width: 100%;
+    height: auto;
+}
+.skills-icon-container {
+    margin-top: 3rem;
+}
+ 
+@media (max-width: 768px) {
+   .background-image-1 {
+    position: absolute;
+    z-index: -1;
+    }
+    .section-1 {
+        height: auto;
+    }
+    .about-sec-pad {
+        text-align: center;
+        width: 90%;
+    }
+    .contact-desc {
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        margin: 0 2rem 0 2rem;
+    }
+    p {
+        margin: 0;
+    }
+    .skills-icon-container {
+        width: 100%;
+        align-items: center;
+        margin-left: 3rem;
+    }
+    .project-info {
+        width: 95%;
+    }
+    .about-me-info {
+        width: 100%;
+    }
+    .about-container-right {
+        width: 100%;
+    }
+    .project-container-left,
+    .project-container-right {
+        width: 90%;
+        margin: 3rem 2rem 1rem 2rem;
+    }
+    .about-container-right {
+        width: 90%;
+    }
+    .project-container-right-dsc,
+    .container-left-dsc {
+        display: flex;
+        text-align: center;
+    }
+    .button {
+        margin: 4rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    h2 {
+        align-items: center;
+        justify-content: center;
+           width: 100%;
+    }
+    .span-myskills {
+        margin-left: 3rem;
+    }
+    .about-container-box,
+    .project-container {
+        grid-template-columns: 1fr;
+        margin: 1rem 0 1rem 0;
+    }
+    .background-image {
+        zoom: 50%;
+    }
+    
+    .background-image-2 {
+        position: absolute;
+        top: 77rem;
+        left: -1rem;
+        zoom: 54.1%;
+        z-index: -1;
+        box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.3);
+    }
+    .background-image-1 {
+        position: absolute;
+        top: 8rem;
+        right: 0rem;
+        zoom: 54.1%;
+        z-index: -1;
+        box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.3);
+    }
+    .about-container-box {
+        width: 100%;
+    }
+    
+}
+.footer-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    background: blue;
+    color: white;
+    height: 100px;
+}
+.footer-end {
+    color: white;
+    bottom: 0;
+    font-size: 2rem;
+}
+.footer-name {
+    font-size: 2rem;
+    font-weight: bold;
+    color: white;
+}
+.contact-desc {
+        font-size: 2rem;
+    }
+.contact-container {
+    font-size: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 5rem;
+}
+
+
+h3 {
+	text-align: center;
+}
+
+/* Add styles to 'container' class */
+.container {
+    font-size: 3rem;
+    width: 500px;
+	padding: 12px 24px 24px 24px;
+	background: #ffffff;
+	border-radius: 4px;
+}
+
+/* Add styles to 'label' selector */
+label {
+	font-size: 2rem;
+	margin-left: 12px;
+}
+
+/* Add styles to 'input' and 'textarea' selectors */
+input[type=text],input[type=email], textarea {
+    width: 100%;
+    padding: 18px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+}
+
+/* Add styles to show 'focus' of selector */
+input[type=text]:focus,input[type=email]:focus, textarea:focus {
+	border: 1px solid green;
+}
+
+/* Add styles to the submit button */
+input[type=submit] {
+    font-size: 2rem;
+    font-weight: 500;
+	background: none;
+	margin: 0 auto;
+	outline: 0;
+	color: blue;
+	border: 3px solid blue;
+	padding: 1rem 3rem 1rem 3rem;
+	border-radius: 4px;
+	transition: all ease-in-out 0.1s;
+	position: relative;
+	display: inline-block;
+	text-align: center;
+    cursor: pointer;
+    transition: 0.5s;
+    box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.3);
+}
+input[type=submit]:hover {
+    background: blue;
+    color: white;
+}
+
+/* Add styles for 'focus' property */
+input[type=submit]:focus {
+	background: #A5D6A7;
+	color: whitesmoke;
+}
+
+/* Style 'hover' property */
+input[type=submit]:hover {
+	background: blue;
+}
+
+input {
+    font-size: 1.5rem;
+}
+
+/* Align items to center of the 'div' with the class 'center' */
+.center {
+	text-align: center;
+}
+.contact-form-container {
+    width: 100%;
+    height: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 5rem;
+}
