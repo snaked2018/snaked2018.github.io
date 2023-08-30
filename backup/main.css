@@ -209,7 +209,7 @@ h2 {
 .skills-icon-container {
     margin-top: 3rem;
 }
- 
+
 @media (max-width: 768px) {
    .background-image-1 {
     position: absolute;
@@ -280,7 +280,6 @@ h2 {
     .background-image {
         zoom: 50%;
     }
-    
     .background-image-2 {
         position: absolute;
         top: 77rem;

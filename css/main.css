@@ -277,9 +277,7 @@ h2 {
         grid-template-columns: 1fr;
         margin: 1rem 0 1rem 0;
     }
-    .background-image {
-        zoom: 50%;
-    }
+
     .background-image-2 {
         position: absolute;
         top: 77rem;
