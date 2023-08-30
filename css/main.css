@@ -11,7 +11,6 @@
     -webkit-font-smoothing: antialiased;
     -moz-font-smoothing: antialiased;
     -o-font-smoothing: antialiased;
-    font-smoothing: antialiased;
     text-rendering: optimizeLegibility;
     scroll-behavior: smooth;
 }
@@ -266,10 +265,6 @@ h2 {
     }
 }   
 @media (max-width: 768px) {
-    .html,.css,.javascript,.shopify,.wordpress,.github,.sqlbasics,.linux,.figma,.graphicdesign {
-    font-size: 1.5rem;
-    line-height: 8rem;
-    }
     .sub-headline {
         font-size: 1.5rem;
     }
