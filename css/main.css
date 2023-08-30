@@ -37,10 +37,38 @@ button:hover {
     background: white;
     color: blue;
 }
-main {
-    box-shadow: 1px 1px 15px rgba(0, 0, 0, 0.3);
-    height: auto;
+.main-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     width: 100%;
+    height: auto;
+}
+.background-image {
+    z-index: -1;
+    border-bottom: 5px 5px 15px rgba(0, 0, 0, 0.3);
+}
+.left-right-info {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 30rem;
+}
+.main-left-container {
+    text-align: left;
+}
+.main-right-container {
+    text-align: right;
+}
+.container-info-desc {
+    font-size: 2rem;
+}
+.main-left-container,
+.main-right-container {
+    margin: 0 50rem 0 50rem;
 }
 strong {
     font-size: 2rem;
