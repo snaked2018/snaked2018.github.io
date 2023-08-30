@@ -184,13 +184,13 @@ li {
     }
     .right-box-container {
         margin-right: 1rem;
-        margin-top: 40rem;
+        margin-top: 15rem;
     }
     h1 {
         font-size: 5rem;
     }
     .sub-headline {
-        font-size: 2rem;
+        font-size: 1.5rem;
     }
     .header-container {
         display: none !important;
@@ -330,9 +330,6 @@ li {
     }
     h1 {
         font-size: 3.3rem;
-    }
-    .sub-headline {
-        font-size: 2rem;
     }
     .header-container {
         display: none !important;

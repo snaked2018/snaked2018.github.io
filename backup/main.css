@@ -209,12 +209,28 @@ h2 {
 .skills-icon-container {
     margin-top: 3rem;
 }
-
-@media (max-width: 768px) {
-   .background-image-1 {
-    position: absolute;
-    z-index: -1;
+.background-mobile {
+    width: 428px;
+}
+@media (max-width: 428px) {
+    .background-image-2 {
+        position: absolute;
+        top: 37rem;
+        left: -1rem;
+        zoom: 24.1%;
+        z-index: -1;
+        box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.3);
     }
+    .background-image-1 {
+        position: absolute;
+        top: 8rem;
+        right: 0rem;
+        zoom: 50.1%;
+        z-index: -1;
+        box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.3);
+    }
+}
+@media (max-width: 768px) {
     .section-1 {
         height: auto;
     }
@@ -279,22 +295,6 @@ h2 {
     }
     .background-image {
         zoom: 50%;
-    }
-    .background-image-2 {
-        position: absolute;
-        top: 77rem;
-        left: -1rem;
-        zoom: 54.1%;
-        z-index: -1;
-        box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.3);
-    }
-    .background-image-1 {
-        position: absolute;
-        top: 8rem;
-        right: 0rem;
-        zoom: 54.1%;
-        z-index: -1;
-        box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.3);
     }
     .about-container-box {
         width: 100%;
