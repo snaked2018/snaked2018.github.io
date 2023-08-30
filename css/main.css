@@ -18,7 +18,7 @@
 p {
     font-size: 2rem;
     color: rgb(103, 103, 103);
-    margin-top: 3rem;
+
 }
 .btn-hire {
     margin-top: 3rem;
@@ -59,7 +59,7 @@ i {
     object-fit: fill;
     object-position: center;
     top: 5rem;
-    left: -23rem;
+    left: 23rem;
     padding-top: 5rem;
     box-shadow: 0 4px 2px -2px rgb(243, 243, 243);
 }
@@ -136,7 +136,7 @@ h2 {
     font-size: 2rem;  
     margin-bottom: 10rem;
     color: rgb(103, 103, 103);
-    width: 50%;
+    width: 80%;
 }
 .project-container,
 .about-container-box {
@@ -210,33 +210,24 @@ h2 {
 .skills-icon-container {
     margin-top: 3rem;
 }
-.background-image-2 {
-    position: absolute;
-    width: 100%;
-    height: 380px;
-    top: 24rem;
-    object-fit: contain;
-    z-index: -1;
-}
-.background-image-1 {
-    position: absolute;
-    width: 100%;
-    height: 370px;
-    object-fit: fill;
-    top: 3.8rem;
-    z-index: -1;
-}
-@media (max-width: 800px) {
+
+    .background-image-2 {
+        position: absolute;
+        width: 100%;
+        height: 380px;
+        top: 24rem;
+        object-fit: contain;
+        z-index: -1;
+    }
     .background-image-1 {
         position: absolute;
         width: 100%;
         height: 370px;
-        object-fit: contain;
+        object-fit: fill;
         top: 3.8rem;
         z-index: -1;
-        left: -15rem;
     }
-}
+
 @media (max-width: 1920px) {
     .background-image {
         position: absolute;
@@ -245,7 +236,7 @@ h2 {
         object-fit: fill;
         top: 3.8rem;
         z-index: -1;
-        left: 0;
+        left: 0rem;
     }
 }
 @media (max-width: 1440px) {
@@ -262,6 +253,18 @@ h2 {
         width: 80%;
     }
 }
+@media (max-width: 428px) {
+    .left-box-container {
+        width: 70%;
+    }
+    .right-box-container {
+        position: absolute;
+        text-align: right;
+        right: 1rem;
+        top:  31rem;
+        width: 40%;
+    }
+}   
 @media (max-width: 768px) {
     .html,.css,.javascript,.shopify,.wordpress,.github,.sqlbasics,.linux,.figma,.graphicdesign {
     font-size: 1.5rem;
@@ -346,8 +349,7 @@ h2 {
     }
     .about-container-box {
         width: 100%;
-    }
-    
+    } 
 }
 .footer-container {
     display: flex;
