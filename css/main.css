@@ -50,19 +50,22 @@ button:hover {
 }
 .left-right-info {
     width: 100%;
+    position: absolute;
     height: auto;
     display: flex;
     justify-content: center;
-    align-items: center;
-    position: absolute;
     top: 30rem;
 }
 .main-left-container {
-    text-align: left;
+    position: absolute;
+    left: 75rem;
+    margin: 0;
 }
 .main-right-container {
-    text-align: right;
-    
+    position: absolute;
+    right: 75rem;
+    flex: 1;
+    margin: 0;
 }
 .container-info-desc {
     font-size: 2rem;
