@@ -38,8 +38,9 @@ button:hover {
     color: blue;
 }
 main {
+    box-shadow: 1px 1px 15px rgba(0, 0, 0, 0.3);
+    height: auto;
     width: 100%;
-    height: 800px;
 }
 strong {
     font-size: 2rem;
@@ -50,24 +51,7 @@ i {
     margin: 1rem;
 }
 
-.background-image {
-    position: absolute;
-    z-index: -1;
-    width: 100%;
-    height: auto;
-    object-fit: fill;
-    object-position: center;
-    top: 5rem;
-    left: 23rem;
-    padding-top: 5rem;
-    box-shadow: 0 4px 2px -2px rgb(243, 243, 243);
-}
 
-.headline-container {
-    width: 100%;
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-}
 .box-container {
     text-align: left;
     margin-left: 20rem;
@@ -94,11 +78,6 @@ h2 {
     display: flex;
     font-size: 3rem;
     font-weight: bolder;
-}
-
-.sub-headline{
-    font-size: 2rem;
-    color: rgb(103, 103, 103);
 }
 
 .about-sec-pad {
@@ -210,62 +189,6 @@ h2 {
     margin-top: 3rem;
 }
 
-    .background-image-2 {
-        position: absolute;
-        width: 100%;
-        height: 380px;
-        top: 24rem;
-        object-fit: contain;
-        z-index: -1;
-    }
-    .background-image-1 {
-        position: absolute;
-        width: 100%;
-        height: 370px;
-        object-fit: fill;
-        top: 3.8rem;
-        z-index: -1;
-    }
-
-@media (max-width: 1920px) {
-    .background-image {
-        position: absolute;
-        width: 100%;
-        height: 370px;
-        object-fit: fill;
-        top: 3.8rem;
-        z-index: -1;
-        left: 0rem;
-    }
-}
-@media (max-width: 1600px) {
-    .background-image {
-        position: absolute;
-        width: 100%;
-        height: 370px;
-        object-fit: fill;
-        top: 3.8rem;
-        left: -18rem;
-        z-index: -1;
-    }
-    .about-sec-pad {
-        width: 80%;
-    }
-}
-@media (max-width: 1440px) {
-    .background-image {
-        position: absolute;
-        width: 100%;
-        height: 370px;
-        object-fit: fill;
-        top: 3.8rem;
-        left: -20rem;
-        z-index: -1;
-    }
-    .about-sec-pad {
-        width: 80%;
-    }
-}
 @media (max-width: 428px) {
     .left-box-container {
         width: 70%;
@@ -279,9 +202,6 @@ h2 {
     }
 }   
 @media (max-width: 768px) {
-    .sub-headline {
-        font-size: 1.5rem;
-    }
     .section-1 {
         height: auto;
     }

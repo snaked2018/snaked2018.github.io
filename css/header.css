@@ -84,6 +84,7 @@ li:hover {
 .logo-size-2:hover {
     border: 2px solid white;
 }
+
 @media only screen and (max-width: 700px) {
     .background-image {
         display: none !important;
@@ -103,9 +104,6 @@ li:hover {
 @media only screen and (max-width: 1500px) {
     h1 {
         font-size: 7rem;
-    }
-    .sub-headline {
-        font-size: 2rem;
     }
     .logoname,
     .logoname-2 {
@@ -139,9 +137,6 @@ li:hover {
     h1 {
         font-size: 4rem;
     }
-    .sub-headline {
-        font-size: 1.5rem;
-    }
 }
 @media only screen and (max-width: 991px) {
     .left-box-container {
@@ -154,9 +149,6 @@ li:hover {
     }
     h1 {
         font-size: 5rem;
-    }
-    .sub-headline {
-        font-size: 1.5rem;
     }
 }
 @media only screen and (max-width: 727px) {
@@ -188,9 +180,6 @@ li {
     }
     h1 {
         font-size: 5rem;
-    }
-    .sub-headline {
-        font-size: 1.5rem;
     }
     .header-container {
         display: none !important;
