@@ -238,6 +238,20 @@ h2 {
         left: 0rem;
     }
 }
+@media (max-width: 1600px) {
+    .background-image {
+        position: absolute;
+        width: 100%;
+        height: 370px;
+        object-fit: fill;
+        top: 3.8rem;
+        left: -18rem;
+        z-index: -1;
+    }
+    .about-sec-pad {
+        width: 80%;
+    }
+}
 @media (max-width: 1440px) {
     .background-image {
         position: absolute;
