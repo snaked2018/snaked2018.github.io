@@ -15,6 +15,9 @@
             padding: 0;
             box-sizing: none;
         }
+        @media screen and (max-width: 600px) {
+            
+        }
         .section-1 {
             display: grid;
             grid-template-columns: 200px 1fr;
@@ -40,8 +43,6 @@
             object-position: center;
             object-fit: contain;
             border-radius: 50%;
-            border-color: 2px solid black;
-            box-shadow: 2px 2px 15px rgba(0, 0, 0, 0.1);
         }
         h1 {
             font-size: 7rem;
@@ -143,20 +144,12 @@
             text-decoration: none;
             color: rgb(106, 106, 106);
         }
-        .video {
-            z-index: -1;
-            position: fixed;
-            max-width: 100%;
-            height: auto !important;
-            object-fit: fill;
-        }
     </style>
 </head>
 <body>
-    <img class="video" src="image/resume-background.gif">
 <div class="body-main">  
     <div class="section-1">
-        <div class="profile-id"><img class="profile-id" src="image/profile-pic.png" alt="">
+        <div class="profile-id-container"><img class="profile-id" src="image/profile-pic.png" alt="">
         </div>
         <div class=" section-1-info">
             <div><h1>RON<br>RECIPROCO</h1></div>
