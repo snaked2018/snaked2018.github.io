@@ -109,6 +109,11 @@
             margin: auto;
             padding: 3rem;
             box-shadow: 2px 2px 15px rgba(0, 0, 0, 0.1);
+            background-color: white;
+            position: relative;
+        }
+        .body-main {
+           top: 10rem;
         }
         span {
             font-size: 2rem;
@@ -137,10 +142,18 @@
             text-decoration: none;
             color: rgb(106, 106, 106);
         }
+        .video {
+            z-index: -1;
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            object-fit: fill;
+        }
     </style>
 </head>
 <body>
-<div class="body-main">    
+    <video class="video" src="image/resume-background.mp4"></video>
+<div class="body-main">  
     <div class="section-1">
         <div class="profile-id"><img class="profile-id" src="image/profile-pic.png" alt="">
         </div>
