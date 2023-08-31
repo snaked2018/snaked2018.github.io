@@ -144,7 +144,7 @@
         }
         .video {
             z-index: -1;
-            position: absolute;
+            position: fixed;
             width: 100%;
             height: 100%;
             object-fit: fill;
@@ -152,7 +152,9 @@
     </style>
 </head>
 <body>
-    <video class="video" src="image/resume-background.mp4"></video>
+    <video autoplay class="video" width="1920px" height="1080px" controls>
+        <source src="image/resume-background.mp4" type="video/mp4">
+      </video> 
 <div class="body-main">  
     <div class="section-1">
         <div class="profile-id"><img class="profile-id" src="image/profile-pic.png" alt="">
