@@ -5,6 +5,7 @@
     <script src="https://kit.fontawesome.com/2ad21aaa5c.js" crossorigin="anonymous"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="css/resume.css">
     <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300&display=swap" rel="stylesheet">
     <title>Resume</title>
     <style>
@@ -33,11 +34,13 @@
             align-items: center;
             height: 200px;
           }
+        .profile-id-container {
+            width: 100%;
+            height: 100%;
+        }
         .profile-id {
             width: 100%;
             height: 100%;
-            align-items: end;
-            object-position: center;
             object-fit: contain;
             border-radius: 50%;
             border-color: 2px solid black;
@@ -110,12 +113,7 @@
             padding: 3rem;
             box-shadow: 2px 2px 15px rgba(0, 0, 0, 0.1);
             background-color: white;
-            position: relative;
         }
-        .body-main {
-           top: 5rem;
-           bottom: 5rem;
-           }
         span {
             font-size: 2rem;
             font-weight: 300;
@@ -153,10 +151,9 @@
     </style>
 </head>
 <body>
-    <img class="video" src="image/resume-background.gif">
 <div class="body-main">  
     <div class="section-1">
-        <div class="profile-id"><img class="profile-id" src="image/profile-pic.png" alt="">
+        <div class="profile-id-container"><img class="profile-id" src="image/profile-pic.png" alt="">
         </div>
         <div class=" section-1-info">
             <div><h1>RON<br>RECIPROCO</h1></div>
