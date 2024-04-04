@@ -1,0 +1,143 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+:root {
+    /* Branding Color */
+    --bg-primary: blue;
+    --bg-secondary: #fff;
+    --clr-neutral-100: rgb(236, 236, 236);
+    --clr-font-primary: rgb(131, 131, 131);
+
+    --box-shadow: 1px 1px 10px #ececec,
+    -1px -1px 10px #ffffff;
+
+    /* Font Styles */
+    --fs-primary: 'Open Sans', sans-serif;
+    --fs-secondary: 'Poppins', sans-serif;
+
+    /* Font Weight */
+    --ff-sz-300:  300;
+    --ff-sz-400:  500;
+    --ff-sz-600:  600;
+    --ff-sz-900:  900;
+    /* Font Size */
+    --fs-ld1: 3.875rem;
+    --fs-h1: 2.875rem;
+    --fs-h2: 2rem;
+    --fs-h6: 1.5rem;
+    --fs-p: 1.125rem;
+    --fs-p1: 1.25rem;
+    --fs-lp: 1rem;
+}
+.bg-primary {
+    background-color: var(--bg-primary) !important;
+}
+.bg-secondary {
+    background-color: var(--bg-secondary) !important;
+}
+.box-shadow {
+    box-shadow: var(--box-shadow);
+}
+.hd-1 {
+    font-size: var(--fs-ld1);
+    font-weight: var(--ff-sz-900);
+}
+.h1 {
+    font-size: var(--fs-h1);
+    font-weight: var(--ff-sz-600);
+}
+.h2 {
+    font-size: var(--fs-h2);
+    font-weight: var(--ff-sz-600);
+}
+.p-1 {
+    font-size: var(--fs-p);
+}
+span {
+    font-weight: var(--ff-sz-600);
+    color: var(--bg-primary);
+}
+.p {
+    font-size: var(--fs-p);
+    font-style: var(--fs-primary);
+    color: var(--clr-font-primary);
+}
+.navbar {
+    padding: 0 !important;
+}
+.py-cus {
+    margin-top: 8rem;
+    width: 350px;
+}
+.py-cus-mobile {
+    margin: 5rem 0;
+    width: 350px;
+}
+.py-cus-mobile h1{
+    font-size: var(--fs-h1);
+    font-weight: var(--ff-sz-600);
+}
+.skills-container span {
+    color: var(--clr-font-primary);
+    
+}
+.html,.css,.javascript,.shopify,.wordpress,.github,.sqlbasics,.linux,.figma,.graphicdesign,.photoshop,.illustrator,.premiere {
+    color: rgb(103, 103, 103);
+    font-size: var(--fs-p);
+    line-height: 6rem;
+    padding: 18px;
+    border-radius: 5px;
+    background: #ffffff;
+    box-shadow:  1px 1px 10px #ececec,
+                -1px -1px 10px #ffffff;
+    margin: 10px 10px 10px 0px;
+    border: 3px solid blue;
+    }   
+@media (max-width: 567px) {
+    .navbar {
+        padding-left: 12px !important;
+    }    
+}  
+@media (max-width: 768px) {
+    .navbar-toggler {
+        display: block;
+    }
+    .navbar-collapse {
+        display: none;
+    }
+    .navbar-toggler.collapsed + .navbar-collapse {
+        display: block;
+    }
+    #landing {
+        display: none;
+    }
+}
+.navbar-nav .nav-link {
+    color: inherit !important; /* Set color to inherit, removing default link color */
+}
+.logo-name {
+    color: inherit !important; /* Set color to inherit, removing default link color */
+}
+
+.navbar-brand {
+    color: inherit !important; /* Set color to inherit, removing default link color */
+}
+
+.nav-style {
+    color: black; /* Set the default color of the hamburger icon */
+}
+
+.navbar-toggler:hover .navbar-toggler-icon {
+    color: #555; /* Set the hover color of the hamburger icon */
+}
+.custom-nav .nav-link {
+    font-size: 1.2rem;
+    text-align: center;
+    margin: auto;/* Adjust the font size as needed */
+}
+@media (max-width: 768px) {
+    .nav-link {
+        width: 100%;
+    }
+
+}

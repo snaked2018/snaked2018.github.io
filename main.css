@@ -1,0 +1,133 @@
+#landing {
+    min-height: 87vh;
+    background-image: url('images/background-2.gif');
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+
+}
+.mobile-bg img{
+    position: relative;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.1);
+    border: 1px solid blue;
+    top: 45px;
+    left: 50px;
+    border-radius: 100px;
+    height: 30vh;
+    width: 300px;
+    z-index: -100;
+    object-fit: cover;
+    margin: auto;
+    animation: borderinfinite 30s infinite;
+}
+
+@keyframes borderinfinite {
+	0%,
+	100% {
+		border-radius: 30% 70% 70% 30% / 30% 52% 48% 70%;
+	}
+
+	10% {
+		border-radius: 50% 50% 20% 80% / 25% 80% 20% 75%;
+	}
+
+	20% {
+		border-radius: 67% 33% 47% 53% / 37% 20% 80% 63%;
+	}
+
+	30% {
+		border-radius: 39% 61% 47% 53% / 37% 40% 60% 63%;
+	}
+
+	40% {
+		border-radius: 39% 61% 82% 18% / 74% 40% 60% 26%;
+	}
+
+	50% {
+		border-radius: 100%;
+	}
+
+	60% {
+		border-radius: 50% 50% 53% 47% / 72% 69% 31% 28%;
+	}
+
+	70% {
+		border-radius: 50% 50% 53% 47% / 26% 22% 78% 74%;
+	}
+
+	80% {
+		border-radius: 50% 50% 53% 47% / 26% 69% 31% 74%;
+	}
+
+	90% {
+		border-radius: 20% 80% 20% 80% / 20% 80% 20% 80%;
+	}
+}
+
+@media (max-width: 1920px) {
+    .py-cus {
+        margin-top: 13rem !important;
+    }
+}   
+@media (max-width: 1600px) {
+    #landing {
+        min-height: 77vh;
+    }
+    .py-cus {
+        margin-top: 11rem !important;
+    }
+}    
+@media (max-width: 1440px) {
+    #landing {
+        min-height: 67vh;
+    }
+}    
+@media (max-width: 1200px) {
+    #landing {
+        min-height: 55vh;
+    }
+    .p-1 {
+        font-size: var(--fs-lp) !important;
+    }
+    .py-cus {
+        margin-top: 9rem !important;
+        width: 300px !important;
+    }
+}    
+@media only screen and (max-width: 992px) {
+    #landing {
+        min-height: 45vh;
+    }
+    .hd-1 {
+        font-size: var(--fs-h1) !important;
+    }
+    .p-1 {
+        font-size: var(--fs-lp) !important;
+    }
+    .py-cus {
+        margin-top: 6rem !important;
+        width: 250px !important;
+    }
+} 
+/* Tablet Display Settings */
+/* Display None =< Medium Screen */
+@media (min-width: 768px) {
+    #landing-mobile {
+        display: none;
+    }
+}  
+button {
+    font-size: var(--fs-p);
+    font-weight: 500;
+    padding: 10px 2rem 10px 2rem;
+    border: 2px solid blue;
+    background: blue;
+    color: white;
+    transition: 0.5s;
+    cursor: pointer;
+}
+button:hover {
+    background: white;
+    color: blue;
+}
