@@ -1,0 +1,46 @@
+{
+  "meta": {
+    "title": "Remix Digital | Ron Reciproco",
+    "description": "Portfolio website for Remix Digital, showcasing creative work and services by Ron Reciproco",
+    "keywords": ["portfolio", "web development", "digital design", "Ron Reciproco", "Remix Digital"]
+  },
+  "personal": {
+    "name": "Ron Reciproco",
+    "location": "Philippines",
+    "email": "ronreciproco123@gmail.com",
+    "phone": "+639777487194",
+    "startDate": "2018-01-01T00:00:00",
+    "profession": {
+      "title": "Developer And Designer",
+      "shortDescription": "A creative front-end developer & graphic designer focusing on Shopify Development.",
+      "skills": "Proficiency in HTML, CSS, JavaScript and front-end frameworks."
+    },
+    "socialLinks": {
+      "upwork": "https://www.upwork.com/your-profile",
+      "facebook": "https://www.facebook.com/your-profile",
+      "github": "https://github.com/snaked2018",
+      "linkedin": "https://linkedin.com/in/your-profile"
+    }
+  },
+  "business": {
+    "name": "Remix Digital",
+    "tagline": "Creating exceptional digital experiences that transform brands and drive business growth.",
+    "logo": "/logo.png"
+  },
+  "navigation": {
+    "main": [
+      { "name": "Home", "path": "/" },
+      { "name": "Projects", "path": "/projects" },
+      { "name": "Skill", "path": "/skill" },
+      { "name": "About", "path": "/about" },
+      { "name": "Experience", "path": "/experience" },
+      { "name": "Contact", "path": "/contact" }
+    ]
+  },
+  "services": [
+    { "name": "Web Development", "path": "/services#web-development" },
+    { "name": "Shopify Development", "path": "/services#mobile-development" },
+    { "name": "UX/UI Design", "path": "/services#ui-ux-design" },
+    { "name": "SEO Optimization", "path": "/services#digital-strategy" }
+  ]
+}

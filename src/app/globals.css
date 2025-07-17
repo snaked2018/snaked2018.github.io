@@ -1,0 +1,187 @@
+@import "tailwindcss";
+
+:root {
+  --background: #ffffff;
+  --foreground: #000000;
+  --nav-gradient: linear-gradient(to right, #000000, #1F1F1F, #000000);
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --font-sans: var(--font-inter);
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: #000000;
+    --foreground: #ededed;
+  }
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.bg-nav-gradient {
+  background: var(--nav-gradient);
+}
+
+@keyframes rotate-gradient {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+.silver-gradient {
+  background: linear-gradient(
+    135deg,
+    #f5f5f5 0%,
+    #e0e0e0 25%,
+    #c0c0c0 50%,
+    #a9a9a9 75%,
+    #808080 100%
+  );
+  background-size: 200% 200%;
+  animation: rotate-gradient 4s linear infinite;
+}
+
+.hover-silver-border:hover .silver-border {
+  opacity: 1;
+}
+
+.silver-border {
+  opacity: 0;
+  transition: opacity 0.3s;
+}
+
+@layer utilities {
+  .no-scrollbar::-webkit-scrollbar {
+    display: none;
+  }
+  .no-scrollbar {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+  }
+}
+
+/* Professional ruler/grid background similar to Next.js */
+.grid-background {
+  background-image:
+    linear-gradient(to right, rgba(100, 100, 100, 0.05) 1px, transparent 1px),
+    linear-gradient(to bottom, rgba(100, 100, 100, 0.05) 1px, transparent 1px);
+  background-size: 24px 24px;
+}
+
+.grid-background-dark {
+  background-image:
+    linear-gradient(to right, rgba(255, 255, 255, 0.03) 1px, transparent 1px),
+    linear-gradient(to bottom, rgba(255, 255, 255, 0.03) 1px, transparent 1px);
+  background-size: 24px 24px;
+}
+
+/* Add a dot at intersections for more detail */
+.grid-dots {
+  background-image:
+    radial-gradient(circle, rgba(100, 100, 100, 0.1) 1px, transparent 1px);
+  background-size: 24px 24px;
+  background-position: center;
+}
+
+/* Dark version of the dots */
+.grid-dots-dark {
+  background-image:
+    radial-gradient(circle, rgba(255, 255, 255, 0.05) 1px, transparent 1px);
+  background-size: 24px 24px;
+  background-position: center;
+}
+
+/* Combine them for a more complex pattern */
+.next-grid {
+  background-color: #000000;
+  background-image:
+    linear-gradient(to right, rgba(255, 255, 255, 0.03) 1px, transparent 1px),
+    linear-gradient(to bottom, rgba(255, 255, 255, 0.03) 1px, transparent 1px),
+    radial-gradient(circle, rgba(255, 255, 255, 0.04) 1px, transparent 1px);
+  background-size: 24px 24px, 24px 24px, 24px 24px;
+  background-position: center;
+}
+
+/* Enhanced animated grid background */
+.next-grid-animated {
+  background-color: #000000;
+  position: relative;
+  box-shadow: inset 0 0 70px 10px rgba(0, 0, 0, 0.7);
+}
+
+.next-grid-animated::before,
+.next-grid-animated::after {
+  content: "";
+  position: fixed; /* Changed from absolute to fixed */
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: -1; /* Move to behind content */
+  pointer-events: none;
+}
+
+.next-grid-animated::before {
+  background-image:
+    linear-gradient(to right, rgba(255, 255, 255, 0.03) 1px, transparent 1px),
+    linear-gradient(to bottom, rgba(255, 255, 255, 0.03) 1px, transparent 1px);
+  background-size: 32px 32px;
+  background-position: center;
+  animation: gridPulse 15s infinite linear;
+}
+
+.next-grid-animated::after {
+  background-image:
+    radial-gradient(circle, rgba(255, 255, 255, 0.04) 1.5px, transparent 1.5px);
+  background-size: 32px 32px;
+  background-position: center;
+  animation: gridFloat 20s infinite linear;
+}
+
+/* Animation for grid lines */
+@keyframes gridPulse {
+  0% {
+    opacity: 0.5;
+    transform: scale(1);
+  }
+  50% {
+    opacity: 1;
+    transform: scale(1.02);
+  }
+  100% {
+    opacity: 0.5;
+    transform: scale(1);
+  }
+}
+
+/* Animation for dots */
+@keyframes gridFloat {
+  0% {
+    background-position: 0 0;
+  }
+  100% {
+    background-position: 32px 32px; /* Match the background-size */
+  }
+}
+
+/* Add a gradient overlay for depth */
+.grid-depth-overlay {
+  position: fixed; /* Changed from absolute to fixed */
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: radial-gradient(circle at center, transparent 0%, rgba(0, 0, 0, 0.4) 100%);
+  pointer-events: none;
+  z-index: -1; /* Move to behind content */
+}
