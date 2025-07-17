@@ -66,7 +66,7 @@ export default function HeroSection() {
 
   return (
     <section className="relative pt-12 pb-16 md:pt-5 md:pb-24 overflow-hidden">
-      <div className="max-w-[1440px] mx-auto px-4 lg:px-16 flex flex-col md:flex-row items-center">
+      <div className="max-w-[1440px] mx-auto px-4 md:px-8 lg:px-16 flex flex-col md:flex-row items-center">
         {/* Image First on Mobile, Second on Desktop */}
         <div className="w-full md:w-1/2 md:order-2 flex justify-center mb-8 md:mb-0 md:mt-0 z-10 relative">
           <div className="relative w-[350px] h-[350px] md:w-[600px] md:h-[600px] xl:w-[700px] xl:h-[700px]">
