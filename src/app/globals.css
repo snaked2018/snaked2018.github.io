@@ -70,7 +70,6 @@ body {
   }
 }
 
-/* Professional ruler/grid background similar to Next.js */
 .grid-background {
   background-image:
     linear-gradient(to right, rgba(100, 100, 100, 0.05) 1px, transparent 1px),
@@ -85,7 +84,6 @@ body {
   background-size: 24px 24px;
 }
 
-/* Add a dot at intersections for more detail */
 .grid-dots {
   background-image:
     radial-gradient(circle, rgba(100, 100, 100, 0.1) 1px, transparent 1px);
@@ -93,7 +91,6 @@ body {
   background-position: center;
 }
 
-/* Dark version of the dots */
 .grid-dots-dark {
   background-image:
     radial-gradient(circle, rgba(255, 255, 255, 0.05) 1px, transparent 1px);
@@ -101,7 +98,6 @@ body {
   background-position: center;
 }
 
-/* Combine them for a more complex pattern */
 .next-grid {
   background-color: #000000;
   background-image:
@@ -112,7 +108,6 @@ body {
   background-position: center;
 }
 
-/* Enhanced animated grid background */
 .next-grid-animated {
   background-color: #000000;
   position: relative;
@@ -122,12 +117,12 @@ body {
 .next-grid-animated::before,
 .next-grid-animated::after {
   content: "";
-  position: fixed; /* Changed from absolute to fixed */
+  position: fixed;
   top: 0;
   left: 0;
   right: 0;
   bottom: 0;
-  z-index: -1; /* Move to behind content */
+  z-index: -1;
   pointer-events: none;
 }
 
@@ -148,7 +143,6 @@ body {
   animation: gridFloat 20s infinite linear;
 }
 
-/* Animation for grid lines */
 @keyframes gridPulse {
   0% {
     opacity: 0.5;
@@ -164,24 +158,31 @@ body {
   }
 }
 
-/* Animation for dots */
 @keyframes gridFloat {
   0% {
     background-position: 0 0;
   }
   100% {
-    background-position: 32px 32px; /* Match the background-size */
+    background-position: 32px 32px;
   }
 }
 
-/* Add a gradient overlay for depth */
 .grid-depth-overlay {
-  position: fixed; /* Changed from absolute to fixed */
+  position: fixed;
   top: 0;
   left: 0;
   right: 0;
   bottom: 0;
   background: radial-gradient(circle at center, transparent 0%, rgba(0, 0, 0, 0.4) 100%);
   pointer-events: none;
-  z-index: -1; /* Move to behind content */
+  z-index: -1;
+}
+
+.scrollbar-hide::-webkit-scrollbar {
+  display: none;
+}
+
+.scrollbar-hide {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
 }

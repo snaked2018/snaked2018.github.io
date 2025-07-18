@@ -11,16 +11,70 @@
     "phone": "+639777487194",
     "startDate": "2018-01-01T00:00:00",
     "profession": {
-      "title": "Developer And Designer",
-      "shortDescription": "A creative front-end developer & graphic designer focusing on Shopify Development.",
-      "skills": "Proficiency in HTML, CSS, JavaScript and front-end frameworks."
+      "title": "Skills",
+      "skills": "My technical toolkit covers modern web development, e-commerce, and creative engineering. Here are the core technologies I use to deliver high-quality solutions.",
+      "skillList": [
+        "React.js",
+        "Node.js",
+        "Shopify",
+        "Remix",
+        "MongoDB",
+        "Express.js",
+        "HTML5",
+        "PHP",
+        "WordPress",
+        "Git",
+        "TypeScript",
+        "Figma"
+      ]
     },
     "socialLinks": {
       "upwork": "https://www.upwork.com/your-profile",
       "facebook": "https://www.facebook.com/your-profile",
       "github": "https://github.com/snaked2018",
       "linkedin": "https://linkedin.com/in/your-profile"
-    }
+    },
+    "about": {
+      "title": "About Me",
+      "description": "Explore my background, skills, and links. On desktop, you can drag and move each card freely."
+    },
+    "experience": [
+      {
+        "title": "Shopify Developer",
+        "company": "Umbra Digital Company",
+        "year": "2022",
+        "description": "Created and maintained high-performing e-commerce stores for Umbra Digital Company's clients. Specialized in custom themes and Liquid/JavaScript functionalities.",
+        "logo": "/logos/podvapes.png"
+      },
+      {
+        "title": "Sr. Shopify Developer",
+        "company": "PodVapes",
+        "year": "2023",
+        "description": "Led the advancement of PodVapes' e-commerce platform, integrating third-party services and optimizing user experience with Shopify APIs.",
+        "logo": "/logos/podvapes.png"
+      },
+      {
+        "title": "Frontend Developer",
+        "company": "Remix Digital",
+        "year": "2021",
+        "description": "Worked on creative web projects, focusing on UI/UX and interactive animations for digital campaigns and client websites.",
+        "logo": "/logos/podvapes.png"
+      },
+      {
+        "title": "Web Designer",
+        "company": "Pixel Studio",
+        "year": "2020",
+        "description": "Designed and developed visually compelling websites, collaborating closely with designers and developers to deliver high-quality results.",
+        "logo": "/logos/podvapes.png"
+      },
+      {
+        "title": "Junior Developer",
+        "company": "CodeLab",
+        "year": "2019",
+        "description": "Assisted in building web applications, learning best practices in coding, testing, and deployment in a fast-paced agency environment.",
+        "logo": "/logos/podvapes.png"
+      }
+    ]
   },
   "business": {
     "name": "Remix Digital",
@@ -30,10 +84,10 @@
   "navigation": {
     "main": [
       { "name": "Home", "path": "/" },
-      { "name": "Projects", "path": "/projects" },
-      { "name": "Skill", "path": "/skill" },
       { "name": "About", "path": "/about" },
       { "name": "Experience", "path": "/experience" },
+      { "name": "Skill", "path": "/skill" },
+      { "name": "Projects", "path": "/projects" },
       { "name": "Contact", "path": "/contact" }
     ]
   },
@@ -42,5 +96,24 @@
     { "name": "Shopify Development", "path": "/services#mobile-development" },
     { "name": "UX/UI Design", "path": "/services#ui-ux-design" },
     { "name": "SEO Optimization", "path": "/services#digital-strategy" }
-  ]
+  ],
+  "projects": {
+    "title": "Showcase Projects",
+    "description": "Explore some of my featured brands and clients. Hover to zoom in and see details.",
+    "line1": [
+      { "src": "/logos/boc.png", "alt": "BOC" },
+      { "src": "/logos/gnn.png", "alt": "GNN" },
+      { "src": "/logos/lemonjelly.png", "alt": "Lemon Jelly" },
+      { "src": "/logos/phillabor.png", "alt": "Phillabor" },
+      { "src": "/logos/podvapes.png", "alt": "PodVapes" }
+    ],
+    "line2": [
+      { "src": "/logos/safetydirect.png", "alt": "Safety Direct" },
+      { "src": "/logos/sunnies-face.png", "alt": "Sunnies Face" },
+      { "src": "/logos/sunnies-studios.png", "alt": "Sunnies Studios" },
+      { "src": "/logos/worklocker.webp", "alt": "WorkLocker" },
+      { "src": "/logos/workstitch.webp", "alt": "WorkStitch" },
+      { "src": "/logos/wwp.png", "alt": "WWP" }
+    ]
+  }
 }

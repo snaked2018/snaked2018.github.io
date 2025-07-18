@@ -65,7 +65,7 @@ export default function HeroSection() {
   const formattedTime = `${timeElapsed.years} years, ${timeElapsed.days} days, ${String(timeElapsed.minutes).padStart(2, '')} minutes and ${String(timeElapsed.seconds).padStart(2, '0')} seconds.`;
 
   return (
-    <section className="relative pt-12 pb-16 md:pt-5 md:pb-24 overflow-hidden">
+    <section className="relative pt-12 pb-16 md:pt-5 md:pb-0 overflow-hidden">
       <div className="max-w-[1440px] mx-auto px-4 md:px-8 lg:px-16 flex flex-col md:flex-row items-center">
         {/* Image First on Mobile, Second on Desktop */}
         <div className="w-full md:w-1/2 md:order-2 flex justify-center mb-8 md:mb-0 md:mt-0 z-10 relative">
@@ -91,8 +91,8 @@ export default function HeroSection() {
         {/* Text Content Second on Mobile, First on Desktop */}
         <div className="w-full md:w-1/2 md:order-1 z-10">
           <h1 className="text-5xl md:text-6xl font-bold leading-tight text-white mb-4 md:mb-6 text-center md:text-left">
-            I&apos;m a {personal.profession.title}<br />
-            Based<br />
+            I&apos;m a Developer<br />
+            And Designer Based<br />
             In {personal.location}
           </h1>
           
@@ -101,15 +101,15 @@ export default function HeroSection() {
           </p>
           
           <div className="flex flex-col md:flex-row gap-3 md:gap-4">
-            <p className="text-gray-300 mb-1 text-center md:text-left">
+            <p className="text-gray-300 mb-3 text-center md:text-left">
               {personal.profession.skills}
             </p>
           </div>
           
           <p className="text-gray-300 mb-6 md:mb-8 text-center md:text-left">
-            I have been working with web technologies for{" "}
+            I have been working with web applications for{" "}
             {isLoading ? (
-              <span className="inline-block w-[260px] md:w-[320px] h-5 md:h-6 bg-gray-700 animate-pulse rounded"></span>
+              <span className="ml-2 inline-block w-[260px] md:w-[320px] h-4 bg-gray-300 animate-pulse rounded"></span>
             ) : (
               <span className="text-gray">{formattedTime}</span>
             )}
