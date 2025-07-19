@@ -101,8 +101,8 @@
     "title": "Showcase Projects",
     "description": "Explore some of my featured brands and clients. Hover to zoom in and see details.",
     "line1": [
-      { "src": "/logos/boc.png", "alt": "BOC" },
-      { "src": "/logos/gnn.png", "alt": "GNN" },
+      { "src": "/logos/boc.png", "alt": "Bliss Oral Care" },
+      { "src": "/logos/gnn.png", "alt": "Goodnight Natural" },
       { "src": "/logos/lemonjelly.png", "alt": "Lemon Jelly" },
       { "src": "/logos/phillabor.png", "alt": "Phillabor" },
       { "src": "/logos/podvapes.png", "alt": "PodVapes" }
@@ -113,7 +113,19 @@
       { "src": "/logos/sunnies-studios.png", "alt": "Sunnies Studios" },
       { "src": "/logos/worklocker.webp", "alt": "WorkLocker" },
       { "src": "/logos/workstitch.webp", "alt": "WorkStitch" },
-      { "src": "/logos/wwp.png", "alt": "WWP" }
+      { "src": "/logos/wwp.png", "alt": "Work Wear Pro" }
+    ],
+    "details": [
+      {
+        "src": "/logos/gnn.png",
+        "title": "Goodnight Natural",
+        "summary": "Built a scalable content management system for GNN. Used Remix and TypeScript for robust routing and type safety.",
+        "stacks": ["Remix", "TypeScript", "MongoDB"],
+        "preview": "/previews/gnnpreview.png",
+        "fullpreview": "/showcase/gnnfull.jpg",
+        "website": "https://goodnightnatural.com",
+        "themeColor": "#0E1B4D"
+      }
     ]
   }
 }

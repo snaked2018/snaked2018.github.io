@@ -61,7 +61,7 @@ export default function LogoSlider() {
   ];
 
   return (
-    <section className="py-4 overflow-hidden">
+    <section className="overflow-hidden">
       <div className="max-w-full">
         {/* <div className="text-center mb-10">
           <h2 className="text-3xl md:text-4xl font-bold text-white mb-4">Trusted by Brands</h2>
